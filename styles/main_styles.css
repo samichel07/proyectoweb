@@ -72,7 +72,7 @@ body
 }
 
 
-/*PARTE DEL CARGADOR*/
+/*PARTE DEL CARGADOR
 .hidden{
     overflow: hidden;
 }
@@ -169,7 +169,7 @@ body
     transform: rotate(360deg);
   }
 }
-/*TERMINA PARTE DEL CARGADOR*/
+TERMINA PARTE DEL CARGADOR*/
 
 
 
