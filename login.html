@@ -1,9 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  ng-app>
 <head>
-	<title>Login V18</title>
+	<title>Animus Clothing</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/funciones.js"></script> 
+	<link rel="stylesheet" type="text/css" href="librerias/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="librerias/alertify/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="librerias/alertify/css/themes/default.css">
+    <!--AngularJS-->
+    <script src="js/lib/angular.min.js"></script>
+    <script src="librerias/jquery-3.6.0.min.js"></script>
+    <script src="librerias/bootstrap/js/bootstrap.js"></script>
+    <script src="librerias/alertify/alertify.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -33,7 +60,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" ACTION=login.php METHOD=POST>
 					<span class="login100-form-title p-b-43">
 						I N G R E S A
 					</span>
@@ -62,97 +89,85 @@
 
 						<div>
 							<a href="#" class="txt1" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
-							Registrarse 
+							R E G I S T R A R S E 
 							</a>
 						</div>
+
 					</div>
 			
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn" > 
-							Ingresar
+							INGRESAR
 						</button>
 					</div>
-
-
-
-					
-					<div class="text-center p-t-46 p-b-20">
-						<span class="txt2">
-							or sign up using
-						</span>
-					</div>
-
+					<br>
 					<div class="login100-form-social flex-c-m">
 						<a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
 							<i class="fa fa-facebook-f" aria-hidden="true"></i>
 						</a>
 
+						<a href="index.html" class="login100-form-social-item flex-c-m bg3 m-r-5">
+							<i class="fa fa-home" aria-hidden="true"></i>
+						</a>
+
 						<a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 						</a>
+					
 					</div>
 				</form>
 
-				<div class="login100-more" style="background-image: url('images/login.png');">
+				
+
+				<div class="login100-more" style="background-image: url('images/clothing1.jpg');">
 				</div>
 			</div>
 		</div>
 	</div>
 	
+
 	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 		  <div class="modal-content">
 			<div class="modal-header">
-			  <h5 class="modal-title" id="exampleModalLabel">Nuevo Usuario</h5>
+			  <h5 class="modal-title" id="exampleModalLabel">REGISTRO DE: {{user| uppercase}} </h5>
 			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			
 			<div class="modal-body">
-			  <form>
 				<div class="mb-3">
 				  <label for="recipient-name" class="col-form-label">Nombre:</label>
-				  <input type="text" class="form-control" id="usuario">
+				  <input id="usuario"   type="text" class="form-control" name="usuario" ng-model="user">
 				</div>
 				<div class="mb-3">
 					<label for="recipient-name" class="col-form-label">Correo:</label>
-					<input type="text" class="form-control" id="correo">
+					<input id="correoo" type="text" class="form-control" name="correoo">
 				  </div>
 				<div class="mb-3">
 					<label for="recipient-name" class="col-form-label">Contraseña</label>
-					<input type="text" class="form-control" id="contraseña">
+					<input id="contrasenaa" type="password" class="form-control" name="contrasenaa">
 				</div>
-			
-			  </form>
 			</div>
 			<div class="modal-footer">
-			  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-			  <button type="button" class="btn btn-primary">Registrar</button>
+			  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cerrar</button>
+			  <button type="button" class="btn btn-primary" data-bs-dismiss="modal"  id="guardarnuevo">Registrar</button>
 			</div>
 		  </div>
 		</div>
 	  </div>
-	
+	  <script type="text/javascript">
+		$(document).ready(function(){
+			$('#guardarnuevo').click(function(){
+				usuario=$('#usuario').val();
+				correoo=$('#correoo').val();
+				contrasenaa=$('#contrasenaa').val();
+				agregardatos(usuario,correoo,contrasenaa);
+			});
+		
+		
+		});
+		 </script>
 
-	
-	
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
 
 </body>
 </html>
