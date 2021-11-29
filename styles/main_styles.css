@@ -1086,7 +1086,7 @@ section
 {
 	font-size: 24px;
 	font-weight: 600;
-	color: #8a8a8a;
+	color: #123;
 	margin-top: 0px;
 }
 .product_options
@@ -1103,7 +1103,7 @@ section
 .product_buy
 {
 	display: inline-block;
-	background: #937c6f;
+	background: #018CFF;
 	vertical-align: middle;
 	margin-right: 4px;
 	-webkit-transition: all 200ms ease;
@@ -1127,7 +1127,7 @@ section
 }
 .product_buy:hover
 {
-	background: #2f2f2f;
+	background: #BF360C;
 }
 .product_fav
 {
@@ -1135,8 +1135,8 @@ section
 	vertical-align: middle;
 	font-size: 14px;
 	font-weight: 600;
-	color: #232323;
-	background: #e0e3e4;
+	color: #ffff;
+	background: #018CFF;
 	line-height: 37px;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -1148,7 +1148,7 @@ section
 .product_fav:hover
 {
 	color: #FFFFFF;
-	background: #232323;
+	background: #BF360C;
 }
 
 /*********************************
@@ -1163,6 +1163,7 @@ section
 }
 .extra_promo
 {
+	border: solid 2px #018CFF;
 	width: calc((100% - 30px) / 2);
 	height: 616px;
 	float: left;
@@ -1191,7 +1192,7 @@ section
 	max-width: 425px;
 	height: 100%;
 	background: rgba(35, 35, 35, 0.95);
-	border: solid 2px #937c6f;
+	border: solid 2px #fff;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -1199,7 +1200,7 @@ section
 {
 	font-family: 'Beyond', sans-serif;
 	font-size: 72px;
-	color: #FFFFFF;
+	color: #BF360C;
 	line-height: 0.75;
 }
 .extra_1_price span
@@ -1210,13 +1211,13 @@ section
 {
 	font-family: 'Lucida', serif;
 	font-size: 30px;
-	color: #937c6f;
+	color: #018CFF;
 	margin-top: 39px;
 }
 .extra_1_text
 {
 	font-size: 12px;
-	color: #aeaeae;
+	color: #fff;
 	margin-top: 26px;
 	line-height: 2;
 }
@@ -1226,7 +1227,7 @@ section
 }
 .extra_promo_2
 {
-	border: solid 2px #937c6f;
+	border: solid 2px #BF360C;
 	padding-top: 43px;
 	padding-bottom: 46px;
 }
@@ -1247,7 +1248,7 @@ section
 {
 	font-family: 'Lucida', serif;
 	font-size: 200px;
-	color: #937c6f;
+	color: #123;
 	line-height: 0.75;
 	-webkit-transform: rotate(-12deg);
 	-moz-transform: rotate(-12deg);
@@ -1263,7 +1264,7 @@ section
 	font-family: 'Beyond', sans-serif;
 	font-size: 72px;
 	line-height: 0.75;
-	color: #232323;
+	color: #018CFF;
 }
 .extra_2_bottom
 {
@@ -1273,12 +1274,12 @@ section
 	font-family: 'Beyond', sans-serif;
 	font-size: 72px;
 	line-height: 0.75;
-	color: #232323;
+	color:#BF360C;
 }
 .extra_2_text
 {
 	font-size: 12px;
-	color: #aeaeae;
+	color: #123;
 	margin-top: 83px;
 	line-height: 2;
 }
@@ -1343,7 +1344,7 @@ section
 }
 .gallery_title ul li a:hover
 {
-	color: #937c6f;
+	color:#BF360C;
 }
 .gallery_text
 {
@@ -1379,7 +1380,7 @@ section
 {
 	font-family: 'Lucida', serif;
 	font-size: 24px;
-	color: #8a8a8a;
+	color: #123;
 	font-style: italic;
 	line-height: 1.75;
 }
@@ -1501,7 +1502,7 @@ section
 	right: 0;
 	width: 142px;
 	height: 46px;
-	background: #937c6f;
+	background: #018CFF;
 	color: #FFFFFF;
 	font-size: 12px;
 	letter-spacing: 0.2em;
@@ -1517,8 +1518,8 @@ section
 }
 .newsletter_button:hover
 {
-	background: #e0e3e4;
-	color: #232323;
+	background: #BF360C;
+	color: #ffff;
 }
 .newsletter_text
 {
@@ -1570,7 +1571,7 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #fb5e4f;
+	color: #BF360C;
 }
 .footer_social
 {
@@ -1588,7 +1589,7 @@ section
 .footer_social ul li a i
 {
 	font-size: 24px;
-	color: #fb5e4f;
+	color: #BF360C;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1597,7 +1598,7 @@ section
 }
 .footer_social ul li a i:hover
 {
-	color: #e0e3e4;
+	color: #123;
 }
 .copyright
 {
@@ -1605,5 +1606,5 @@ section
 	padding-bottom: 13px;
 	font-family: 'Lucida', serif;
 	font-size: 12px;
-	color: #232323;
+	color: #123;
 }
