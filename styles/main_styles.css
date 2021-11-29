@@ -571,7 +571,7 @@ section
 	left: -5px;
 	width: 15px;
 	height: 15px;
-	background: #fb5e4f;
+	background: #BF360C;
 	border-radius: 50%;
 }
 .cart_num_inner,
@@ -593,7 +593,7 @@ section
 	transform: translate(-50%, -50%);
 	font-size: 9px;
 	font-weight: 600;
-	color: #FFFFFF;
+	color: #FFFF;
 }
 .star img
 {
@@ -638,7 +638,7 @@ section
 }
 .burger_container:hover div
 {
-	background: #937c6f;
+	background: #BF360C;
 }
 
 /*********************************
@@ -686,13 +686,13 @@ section
 }
 .home_slider_content_inner
 {
-	background: #937c6f;
+	background: #123;
 }
 .home_slider_title
 {
 	font-family: 'Lucida', serif;
 	font-size: 72px;
-	color: #FFFFFF;
+	color: #FFFF;
 	height: 99px;
 	line-height: 99px;
 	padding-left: 31px;
@@ -710,7 +710,7 @@ section
 	transform: translateX(-50%);
 	top: -37px;
 	height: 37px;
-	background: #2f2f2f;
+	background: #BF360C;
 	color: #FFFFFF;
 	padding-left: 34px;
 	padding-right: 34px;
@@ -726,7 +726,7 @@ section
 	right: 60px;
 	width: 45px;
 	height: 45px;
-	background: #937c6f;
+	background: #123;
 	z-index: 10;
 	border-radius: 50%;
 	cursor: pointer;
@@ -738,7 +738,7 @@ section
 }
 .home_slider_next:hover
 {
-	background: #2f2f2f;
+	background: #BF360C;
 }
 .home_slider_dots_container
 {
@@ -765,7 +765,8 @@ section
 	position: relative;
 	font-family: 'Lucida', serif;
 	font-size: 18px;
-	color: #FFFFFF;
+	background: #FFF
+	color: #000;
 	margin-right: 7px;
 	cursor: pointer;
 }
@@ -861,7 +862,7 @@ section
 }
 .menu_close:hover div
 {
-	background: #937c6f;
+	background: #018CFF;
 }
 .menu .logo
 {
@@ -875,7 +876,7 @@ section
 {
 	font-size: 12px;
 	text-transform: uppercase;
-	color: #2f2f2f;
+	color: #018CFF;
 	font-weight: 600;
 	letter-spacing: 0.2em;
 	-webkit-transition: all 200ms ease;
@@ -922,7 +923,7 @@ section
 {
 	width: 100%;
 	height: 60px;
-	background: #2f2f2f;
+	background: #018CFF;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -945,11 +946,11 @@ section
 }
 .promo_link:hover
 {
-	background: #222222;
+	background:#BF360C;
 }
 .promo_link:hover a
 {
-	color: #937c6f;
+	color: #123;
 }
 .promo_content
 {
@@ -1079,7 +1080,7 @@ section
 }
 .product_name a:hover
 {
-	color: #937c6f;
+	color: #123;
 }
 .product_price
 {
