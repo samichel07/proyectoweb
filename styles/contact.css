@@ -600,7 +600,7 @@ section
 }
 .breadcrumbs ul li a:hover
 {
-	color: #937c6f;
+	color: #FF0000;
 }
 
 /*********************************
@@ -668,7 +668,7 @@ section
 }
 .menu_close:hover div
 {
-	background: #937c6f;
+	background: #FF0000;
 }
 .menu .logo
 {
@@ -829,7 +829,7 @@ section
 	height: 46px;
 	border: none;
 	outline: none;
-	background: #937c6f;
+	background: #123;
 	color: #FFFFFF;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -957,7 +957,7 @@ section
 {
 	height: 57px;
 	width: 100%;
-	background: #937c6f;
+	background: #123;
 	padding-left: 33px;
 	cursor: pointer;
 	color: #FFFFFF;
@@ -1011,7 +1011,7 @@ section
 }
 .accordion.active::after
 {
-	color: #232323;
+	color: #ffa07f;
 	content: '-';
 }
 .accordion:hover
@@ -1125,7 +1125,7 @@ section
 	right: 0;
 	width: 142px;
 	height: 46px;
-	background: #937c6f;
+	background: #123;
 	color: #FFFFFF;
 	font-size: 12px;
 	letter-spacing: 0.2em;
@@ -1212,7 +1212,7 @@ section
 .footer_social ul li a i
 {
 	font-size: 24px;
-	color: #937c6f;
+	color: #1235;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1221,7 +1221,7 @@ section
 }
 .footer_social ul li a i:hover
 {
-	color: #e0e3e4;
+	color: "";
 }
 .copyright
 {
