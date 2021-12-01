@@ -68,7 +68,7 @@ body
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
-	color: #2f2f2f;
+	color: #123;
 }
 
 
@@ -192,7 +192,7 @@ p
 	font-size: 14px;
 	line-height: 2;
 	font-weight: 400;
-	color: #929191;
+	color: #123;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -202,7 +202,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #FF6347;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -224,7 +224,7 @@ p a:active
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #FF6347;
 }
 p a:hover::after
 {
@@ -261,7 +261,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color: #FF6347;
 }
 section
 {
@@ -355,7 +355,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #937c6f;
+	color: #123;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
@@ -364,14 +364,14 @@ section
 	font-family: 'Lucida', serif;
 	font-size: 60px;
 	text-transform: uppercase;
-	color: #2f2f2f;
+	color: #123;
 	margin-top: -4px;
 }
 .button
 {
 	width: 142px;
 	height: 46px;
-	background: #937c6f;
+	background: #018CFF;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -384,7 +384,7 @@ section
 	display: block;
 	font-size: 12px;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #FFFF;
 	letter-spacing: 0.2em;
 	line-height: 46px;
 	-webkit-transition: all 200ms ease;
@@ -395,11 +395,11 @@ section
 }
 .button:hover
 {
-	background: #e0e3e4;
+	background: #FF6347;
 }
 .button:hover a
 {
-	color: #232323;
+	color: #FFFF;
 }
 
 /*********************************
@@ -488,7 +488,7 @@ section
 }
 .main_nav ul li a:hover
 {
-	color: #937c6f;
+	color: #FF6347;
 }
 
 /*********************************
@@ -509,7 +509,7 @@ section
 {
 	width: 100%;
 	height: 43px;
-	background: #f9f5f5;
+	background: #fff;
 	border: none;
 	outline: none;
 	padding-left: 20px;
@@ -862,7 +862,7 @@ section
 }
 .menu_close:hover div
 {
-	background: #018CFF;
+	background: #FF6347;
 }
 .menu .logo
 {
@@ -876,7 +876,7 @@ section
 {
 	font-size: 12px;
 	text-transform: uppercase;
-	color: #018CFF;
+	color: #123;
 	font-weight: 600;
 	letter-spacing: 0.2em;
 	-webkit-transition: all 200ms ease;
@@ -887,7 +887,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #937c6f;
+	color: #FF6347;
 }
 .menu .search
 {
@@ -950,7 +950,7 @@ section
 }
 .promo_link:hover a
 {
-	color: #123;
+	color: #FFF;
 }
 .promo_content
 {
@@ -1402,7 +1402,7 @@ section
 	font-family: 'Lucida', serif;
 	font-size: 16px;
 	font-weight: 700;
-	color: #232323;
+	color: #123;
 	margin-top: 14px;
 }
 .test_title
@@ -1411,7 +1411,7 @@ section
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-weight: 600;
-	color: #937c6f;
+	color: #123;
 	margin-top: 4px;
 }
 
@@ -1465,35 +1465,35 @@ section
 	font-size: 12px !important;
 	font-weight: 400 !important;
 	font-style: italic;
-	color: #b3b3b3 !important;
+	color: #123 !important;
 }
 .newsletter_input:-moz-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
 	font-style: italic;
-	color: #b3b3b3 !important;
+	color: #123 !important;
 }
 .newsletter_input::-moz-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
 	font-style: italic;
-	color: #b3b3b3 !important;
+	color: #123 !important;
 } 
 .newsletter_input:-ms-input-placeholder
 { 
 	font-size: 12px !important;
 	font-weight: 400 !important;
 	font-style: italic;
-	color: #b3b3b3 !important;
+	color: #123 !important;
 }
 .newsletter_input::input-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
 	font-style: italic;
-	color: #b3b3b3 !important;
+	color: #123 !important;
 }
 .newsletter_button
 {
