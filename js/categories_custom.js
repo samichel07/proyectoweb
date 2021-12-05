@@ -231,9 +231,9 @@ $(document).ready(function()
     		$("#slider-range").slider(
 			{
 				range: true,
-				min: 20,
-				max: 199,
-				values: [ 20, 199 ],
+				min: 200,
+				max: 2000,
+				values: [ 200, 2000 ],
 				slide: function( event, ui )
 				{
 					$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
