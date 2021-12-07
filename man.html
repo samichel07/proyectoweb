@@ -93,7 +93,6 @@
 				<li class="menu_mm"><a href="index.html">Inicio</a></li>
 				<li class="menu_mm"><a href="categories.html">Ropa Mujer</a></li>
 				<li class="menu_mm"><a href="man.html">Ropa Hombre</a></li>
-				<!--<li class="menu_mm"><a href="#">Accesorios</a></li>-->
 				<li class="menu_mm"><a href="contact.html">Contacto</a></li>
 			</ul>
 		</nav>
@@ -137,15 +136,20 @@
 						<!----------------------- Categories ---------------------------> 
 						<div class="sidebar_section">
 							<div class="sidebar_title">Categorias</div>
-							<div class="sidebar_section_content">
+							<div class="sidebar_section_content sidebar_color_content mCustomScrollbar" data-mcs-theme="minimal-dark">
 						<!--prenda-->  
-								<select ng-model="busqueda.tipo" class="form-control">
+								<!--<select ng-model="busqueda.tipo" class="form-control">
 									<option value="">Elige una opción</option>
 									<option value="Chamarra">Chamarras (3)</option> 
 									<option value="Playera">Playeras (3)</option>
 									<option value="Pantalon">Jeans (3)</option>
-									<option value="Accesorio">Accesorios (3)</option>
-								</select>
+									<option value="Accesorio">Accesorios (3)</option>-->
+								<ul>
+									<li><a href="#">Chamarras (2)</a></li>
+									<li><a href="#">Playeras  (12)</a></li>
+									<li><a href="#">Jeans (2)</a></li>
+									<li><a href="#">Accesorios (3)</a></li>
+								</ul>
 							</div>
 						</div>
 						
@@ -169,25 +173,25 @@
 
 						<!-- Size -->
 						<div class="sidebar_section">
-							<div class="sidebar_title">Size</div>
-							<div class="sidebar_section_content">
+							<div class="sidebar_title">Tamaño</div>
+							<div class="sidebar_section_content sidebar_color_content mCustomScrollbar" data-mcs-theme="minimal-dark">
 								<ul>
-									<li><a href="#">Small S </a></li>
-									<li><a href="#">Medium M</a></li>
-									<li><a href="#">Large L</a></li>
-									<li><a href="#">Extra Large XL</a></li>
+									<li><a href="#">Chica CH (2)</a></li>
+									<li><a href="#">Mediana M (12)</a></li>
+									<li><a href="#">Grande G (2)</a></li>
+									<li><a href="#">Extra Grande XL (3)</a></li>
 								</ul>
 							</div>
 						</div>
 
 						<!-- Price -->
 						<div class="sidebar_section">
-							<div class="sidebar_title">Price</div>
-							<div class="sidebar_section_content">
+							<div class="sidebar_title">Precio</div>
+							<div class="sidebar_section_content sidebar_color_content mCustomScrollbar" data-mcs-theme="minimal-dark">
 								<div class="filter_price">
 									<div id="slider-range" class="slider_range"></div>
 									<p><input type="text" id="amount" class="amount" readonly style="border:0; font-weight:bold;"></p>
-									<div class="clear_price_btn">Clear Price</div>
+									<div class="clear_price_btn">Limpiar Precio</div>
 								</div>
 							</div>
 						</div>
@@ -211,7 +215,7 @@
 						<div class="sorting">
 							<ul class="item_sorting">
 								<li>
-									<span class="sorting_text">Show all</span>
+									<span class="sorting_text">Mostrar Todo</span>
 									<i class="fa fa-caret-down" aria-hidden="true"></i>
 									<ul>
 										<li class="product_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'><span>Mostrar todo</span></li>
@@ -220,7 +224,7 @@
 									</ul>
 								</li>
 								<li>
-									<span class="sorting_text">Show</span>
+									<span class="sorting_text">Pzs</span>
 									<span class="num_sorting_text">12</span>
 									<i class="fa fa-caret-down" aria-hidden="true"></i>
 									<ul>
@@ -258,9 +262,11 @@
 									<div class="product_name"><a href="product.html">Chamarra mezclilla</a></div>
 									<div class="product_price">$650.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -280,9 +286,11 @@
 									<div class="product_name"><a href="product.html">Chamarra workwear con capucha</a></div>
 									<div class="product_price">$799.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -302,9 +310,11 @@
 									<div class="product_name"><a href="product.html"> Chamarra Basica casual</a></div>
 									<div class="product_price">$499.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -324,9 +334,11 @@
 									<div class="product_name"><a href="product.html">Camiseta DESERT journey</a></div>
 									<div class="product_price">$199.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -346,9 +358,11 @@
 									<div class="product_name"><a href="product.html">Camison estampado</a></div>
 									<div class="product_price">$350.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -368,9 +382,11 @@
 									<div class="product_name"><a href="product.html">Camiseta casual</a></div>
 									<div class="product_price">$210.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -390,9 +406,11 @@
 									<div class="product_name"><a href="product.html">Pantalón casual</a></div>
 									<div class="product_price">$850.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -412,9 +430,11 @@
 									<div class="product_name"><a href="product.html">Pantalón skinny mezclilla</a></div>
 									<div class="product_price">$690.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
@@ -434,9 +454,11 @@
 									<div class="product_name"><a href="product.html">Pantalón corte recto</a></div>
 									<div class="product_price">$690.00</div>
 								</div>
+								<a href="#">
 								<div class="product_options">
 									<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
-									<div class="product_fav product_option">+</div>
+									<a href="paypal.html">
+									<div class="product_fav product_option">+</div></a>
 								</div>
 							</div>
 						</div>
